@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: 2019 Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:key="volume_button_music_control_screen"
+    android:title="@string/volume_button_music_control_title">
+
+    <com.android.settingslib.widget.IllustrationPreference
+        android:key="volume_button_music_control_video"
+        settings:searchable="false"
+        app:lottie_rawRes="@raw/lottie_volume_button_music_control" />
+
+    <SwitchPreferenceCompat
+        android:key="volume_button_music_control"
+        android:title="@string/volume_button_music_control_title"
+        android:summary="@string/volume_button_music_control_summary"
+        app:controller="co.aospa.settings.gestures.VolumeButtonMusicControlPreferenceController" />
+
+</PreferenceScreen>
