@@ -23,6 +23,7 @@ import androidx.annotation.NonNull;
 
 import co.aospa.settings.gestures.SwipeToScreenshotPreferenceController;
 import co.aospa.settings.gestures.VolumeButtonMusicControlPreferenceController;
+import co.aospa.settings.gestures.PowerButtonTorchGesturePreferenceController;
 
 import com.android.settings.core.BasePreferenceController;
 import com.android.settingslib.core.AbstractPreferenceController;
@@ -73,6 +74,7 @@ public class GesturesSettingPreferenceController extends BasePreferenceControlle
         controllers.add(new PreventRingingParentPreferenceController(context, FAKE_PREF_KEY));
         controllers.add(new SwipeToScreenshotPreferenceController(context, FAKE_PREF_KEY));
         controllers.add(new VolumeButtonMusicControlPreferenceController(context, FAKE_PREF_KEY));
+        controllers.add(new PowerButtonTorchGesturePreferenceController(context, FAKE_PREF_KEY));
         return controllers;
     }
 }
