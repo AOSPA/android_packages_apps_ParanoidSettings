@@ -48,6 +48,10 @@
     <!-- Network settings -->
     <string name="data_category_title">Data</string>
 
+    <!-- Quick torch -->
+    <string name="power_button_torch_title">Quick torch</string>
+    <string name="power_button_torch_summary">When the screen is off, long-pressing power button will enable torch</string>
+
     <!-- Refresh rate -->
     <string name="refresh_rate_title">Refresh rate</string>
     <string name="refresh_rate_summary_vrr_off">%d Hz</string>
