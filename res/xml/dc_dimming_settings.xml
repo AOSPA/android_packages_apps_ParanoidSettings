@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: 2020 Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:settings="http://schemas.android.com/apk/res-auto"
+        android:title="@string/dc_dimming_title"
+        android:key="dc_dimming_title"
+        settings:keywords="@string/keywords_display_dc_dimming">
+
+    <com.android.settingslib.widget.TopIntroPreference
+        android:key="dc_dimming_top_intro"
+        android:title="@string/dc_dimming_info"
+        settings:searchable="false"/>
+
+    <com.android.settingslib.widget.MainSwitchPreference
+        android:key="dc_dimming_activated"
+        android:title="@string/dc_dimming_main_switch_title" />
+
+    <com.android.settingslib.widget.BannerMessagePreference
+        android:key="dc_dimming_location_off"
+        android:title="@string/twilight_mode_location_off_dialog_message"
+        settings:controller="com.android.settings.display.TwilightLocationPreferenceController" />
+
+    <DropDownPreference
+        android:key="dc_dimming_auto_mode"
+        android:title="@string/dark_ui_auto_mode_title"
+        android:summary="%s" />
+
+</PreferenceScreen>
