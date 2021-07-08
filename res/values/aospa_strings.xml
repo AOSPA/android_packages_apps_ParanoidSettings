@@ -35,6 +35,13 @@
     <string name="charging_control_limit_title">Limit</string>
     <string name="charging_control_reset">Reset</string>
 
+    <!-- Color balance -->
+    <string name="color_mode_balance_category">Color balance</string>
+    <string name="color_mode_balance_red">Red strength</string>
+    <string name="color_mode_balance_green">Green strength</string>
+    <string name="color_mode_balance_blue">Blue strength</string>
+    <string name="keywords_color_balance">color, color balance, color correction, red, green, blue, LiveDisplay</string>
+
     <!-- DC dimming -->
     <string name="dc_dimming_title">DC Dimming</string>
     <string name="dc_dimming_info">Reduces eye strain in low light conditions by minimizing screen flicker. May result in reduced image quality and poor color production, or higher power consumption.</string>
