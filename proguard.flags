@@ -1,0 +1,4 @@
+-include ../../../packages/apps/Settings/proguard.flags
+
+# Proguard rules not owned by core Settings
+-keep class co.aospa.** { *; }

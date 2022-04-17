@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: 2024 Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        package="com.android.settings"
+        android:sharedUserId="android.uid.system"
+        coreApp="true">
+
+    <original-package android:name="com.android.settings"/>
+
+    <application android:name="co.aospa.settings.ParanoidSettingsApplication"
+            android:icon="@drawable/ic_launcher_settings"
+            android:theme="@style/Theme.Settings"
+            tools:replace="android:name">
+
+        <uses-library android:name="org.apache.http.legacy" />
+
+    </application>
+</manifest>
