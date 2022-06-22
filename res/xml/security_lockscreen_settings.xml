@@ -124,6 +124,13 @@
             settings:controller="com.android.settings.gestures.PickupGesturePreferenceController" />
 
         <SwitchPreferenceCompat
+            android:key="gesture_screen_off_udfps"
+            android:title="@string/ambient_display_screen_off_udfps_title"
+            android:summary="@string/ambient_display_screen_off_udfps_summary"
+            settings:keywords="@string/keywords_gesture"
+            settings:controller="co.aospa.settings.gestures.ScreenOffUdfpsPreferenceController" />
+
+        <SwitchPreferenceCompat
             android:key="ambient_display_notification"
             android:title="@string/doze_title"
             android:summary="@string/doze_summary"
