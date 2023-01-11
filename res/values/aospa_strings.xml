@@ -8,6 +8,12 @@
     <!-- Paranoid Android version -->
     <string name="aospa_version">Paranoid Android version</string>
 
+    <!-- Ambient wake -->
+    <string name="doze_gesture_ambient_title">Show Ambient</string>
+    <string name="doze_gesture_ambient_summary">Show Ambient Display instead of fully waking the screen up</string>
+    <string name="gesture_wake_ambient">Show Ambient</string>
+    <string name="gesture_wake">Fully wake</string>
+
     <!-- Refresh rate -->
     <string name="refresh_rate_title">Refresh rate</string>
     <string name="refresh_rate_summary_vrr_off">%d Hz</string>

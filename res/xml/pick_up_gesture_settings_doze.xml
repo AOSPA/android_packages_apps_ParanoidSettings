@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: 2016 The Android Open Source Project
+     SPDX-FileCopyrightText: 2024 Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:title="@string/ambient_display_pickup_title">
+
+    <com.android.settingslib.widget.IllustrationPreference
+        android:key="gesture_pick_up_video"
+        settings:searchable="false"
+        app:lottie_rawRes="@raw/lottie_lift_to_check_phone"/>
+
+    <com.android.settingslib.widget.MainSwitchPreference
+        android:key="gesture_pick_up"
+        android:title="@string/ambient_display_pickup_title"
+        app:keywords="@string/keywords_gesture" />
+
+    <PreferenceCategory
+        android:key="ambient_display_pickup"
+        android:title="@string/ambient_display_pickup_summary" />
+
+    <co.aospa.framework.preference.SecureSettingSwitchPreference
+        android:key="doze_pick_up_gesture_ambient"
+        android:title="@string/doze_gesture_ambient_title"
+        android:summary="@string/doze_gesture_ambient_summary"
+        android:defaultValue="false" />
+
+</PreferenceScreen>
