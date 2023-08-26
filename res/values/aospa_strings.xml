@@ -8,4 +8,7 @@
     <!-- Paranoid Android version -->
     <string name="aospa_version">Paranoid Android version</string>
 
+    <!-- Network settings -->
+    <string name="data_category">Data</string>
+
 </resources>
