@@ -41,4 +41,8 @@ java_defaults {
     resource_zips: [
         ":ParanoidSettings-res",
     ],
+
+    static_libs: [
+        "co.aospa.framework",
+    ],
 }
