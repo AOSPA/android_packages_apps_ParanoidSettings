@@ -40,6 +40,7 @@ android_library {
     static_libs: [
         "Settings-core",
         "ParanoidSettings-res",
+        "co.aospa.framework",
     ],
     plugins: ["androidx.room_room-compiler-plugin"],
 }
