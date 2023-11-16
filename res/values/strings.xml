@@ -19,6 +19,9 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <!-- Summary of the lock screen auto pin confirm setting. [CHAR LIMIT=NONE] -->
+    <string name="lock_screen_auto_pin_confirm_summary">Unlock automatically if you input a correct PIN of 4 digits or more. This is slightly less secure than tapping Enter to confirm.</string>
+
     <!-- SIM status title  [CHAR LIMIT=40] -->
     <string name="sim_status_title_sim_slot">SIM status (sim slot %1$d)</string>
 
