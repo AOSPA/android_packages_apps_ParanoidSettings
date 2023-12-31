@@ -1,0 +1,44 @@
+//
+// SPDX-FileCopyrightText: 2023 The LibreMobileOS Foundation
+// SPDX-FileCopyrightText: 2024 Paranoid Android
+// SPDX-License-Identifier: Apache-2.0
+//
+
+filegroup {
+    name: "ParanoidSettings-sources",
+    srcs: [
+        "src/**/*.java",
+        "src/**/*.kt",
+    ],
+
+    visibility: ["//packages/apps/Settings"],
+}
+
+genrule {
+   name: "ParanoidSettings-res",
+   tools: ["soong_zip"],
+   srcs: [
+       "res/**/*"
+   ],
+   out: ["ParanoidSettings-res.zip"],
+   cmd: "INPUTS=($(in)) && "
+       + "RES_DIR=$$(dirname $$(dirname $${INPUTS[0]})) && "
+       + "$(location soong_zip) -o $(out) -C $$RES_DIR -D $$RES_DIR"
+}
+
+filegroup {
+    name: "ParanoidSettings-manifest",
+    srcs: [
+        "AndroidManifest.xml",
+    ],
+}
+
+java_defaults {
+    name: "ParanoidSettings-defaults",
+
+    additional_manifests: [":ParanoidSettings-manifest"],
+    srcs: [":ParanoidSettings-sources"],
+    resource_zips: [
+        ":ParanoidSettings-res",
+    ],
+}
