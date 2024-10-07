@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1e13757e_eafdde3a",
+        "filename": "src/co/aospa/settings/deviceinfo/firmwareversion/BasebandVersionPreferenceController.kt",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1000101
+      },
+      "writtenOn": "2024-10-07T13:07:09Z",
+      "side": 1,
+      "message": "Remove this whitespace plox",
+      "revId": "2438997e9f42c6923221f1d995adc166aaa10fd7",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
