@@ -16,6 +16,24 @@
       "message": "Remove this whitespace plox",
       "revId": "2438997e9f42c6923221f1d995adc166aaa10fd7",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fffe063d_32db4b9d",
+        "filename": "src/co/aospa/settings/deviceinfo/firmwareversion/BasebandVersionPreferenceController.kt",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1000143
+      },
+      "writtenOn": "2024-10-07T14:10:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1e13757e_eafdde3a",
+      "revId": "2438997e9f42c6923221f1d995adc166aaa10fd7",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
