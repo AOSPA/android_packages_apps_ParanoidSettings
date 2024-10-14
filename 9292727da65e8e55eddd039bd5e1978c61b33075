@@ -1,0 +1,89 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4fc22958_7a088d0f",
+        "filename": "src/co/aospa/settings/deviceinfo/firmwareversion/BasebandVersionPreferenceController.kt",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1000468
+      },
+      "writtenOn": "2024-10-14T21:24:59Z",
+      "side": 1,
+      "message": "remove space\nand \nimport com.android.settings.deviceinfo.firmwareversion.BasebandVersionPreferenceController",
+      "revId": "9292727da65e8e55eddd039bd5e1978c61b33075",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0bea038c_7d6adff8",
+        "filename": "src/co/aospa/settings/deviceinfo/firmwareversion/BasebandVersionPreferenceController.kt",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1000468
+      },
+      "writtenOn": "2024-10-14T21:24:59Z",
+      "side": 1,
+      "message": "ParanoidBasebandVersionPreferenceController",
+      "revId": "9292727da65e8e55eddd039bd5e1978c61b33075",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "413a00f2_88aaedb3",
+        "filename": "src/co/aospa/settings/deviceinfo/firmwareversion/BasebandVersionPreferenceController.kt",
+        "patchSetId": 2
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1000468
+      },
+      "writtenOn": "2024-10-14T21:24:59Z",
+      "side": 1,
+      "message": "just import it",
+      "revId": "9292727da65e8e55eddd039bd5e1978c61b33075",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "619d023f_d52e821f",
+        "filename": "src/co/aospa/settings/deviceinfo/firmwareversion/BasebandVersionPreferenceController.kt",
+        "patchSetId": 2
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1000468
+      },
+      "writtenOn": "2024-10-14T21:24:59Z",
+      "side": 1,
+      "message": "do we need it?",
+      "revId": "9292727da65e8e55eddd039bd5e1978c61b33075",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cc61752b_31667c31",
+        "filename": "src/co/aospa/settings/deviceinfo/firmwareversion/BasebandVersionPreferenceController.kt",
+        "patchSetId": 2
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1000468
+      },
+      "writtenOn": "2024-10-14T21:24:59Z",
+      "side": 1,
+      "message": "override fun getSummary(): CharSequence {\n        return SystemProperties.get(BASEBAND_PROPERTY, \"\")\n            .split(\",\")\n            .firstOrNull()\n            ?: context.getString(R.string.device_info_default)\n    }\n\nthanks",
+      "revId": "9292727da65e8e55eddd039bd5e1978c61b33075",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
