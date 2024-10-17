@@ -18,6 +18,24 @@
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "10828a64_88c404fa",
+        "filename": "src/co/aospa/settings/deviceinfo/firmwareversion/BasebandVersionPreferenceController.kt",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1000143
+      },
+      "writtenOn": "2024-10-17T12:46:37Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4fc22958_7a088d0f",
+      "revId": "9292727da65e8e55eddd039bd5e1978c61b33075",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "0bea038c_7d6adff8",
@@ -31,6 +49,24 @@
       "writtenOn": "2024-10-14T21:24:59Z",
       "side": 1,
       "message": "ParanoidBasebandVersionPreferenceController",
+      "revId": "9292727da65e8e55eddd039bd5e1978c61b33075",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2d93f29a_37757e1a",
+        "filename": "src/co/aospa/settings/deviceinfo/firmwareversion/BasebandVersionPreferenceController.kt",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1000143
+      },
+      "writtenOn": "2024-10-17T12:46:37Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0bea038c_7d6adff8",
       "revId": "9292727da65e8e55eddd039bd5e1978c61b33075",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     },
@@ -52,6 +88,24 @@
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "70b67e8f_70df1bb7",
+        "filename": "src/co/aospa/settings/deviceinfo/firmwareversion/BasebandVersionPreferenceController.kt",
+        "patchSetId": 2
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1000143
+      },
+      "writtenOn": "2024-10-17T12:46:37Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "413a00f2_88aaedb3",
+      "revId": "9292727da65e8e55eddd039bd5e1978c61b33075",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "619d023f_d52e821f",
@@ -69,6 +123,24 @@
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "0fd3f22a_5b5dd38d",
+        "filename": "src/co/aospa/settings/deviceinfo/firmwareversion/BasebandVersionPreferenceController.kt",
+        "patchSetId": 2
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1000143
+      },
+      "writtenOn": "2024-10-17T12:46:37Z",
+      "side": 1,
+      "message": "yes",
+      "parentUuid": "619d023f_d52e821f",
+      "revId": "9292727da65e8e55eddd039bd5e1978c61b33075",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "cc61752b_31667c31",
@@ -82,6 +154,24 @@
       "writtenOn": "2024-10-14T21:24:59Z",
       "side": 1,
       "message": "override fun getSummary(): CharSequence {\n        return SystemProperties.get(BASEBAND_PROPERTY, \"\")\n            .split(\",\")\n            .firstOrNull()\n            ?: context.getString(R.string.device_info_default)\n    }\n\nthanks",
+      "revId": "9292727da65e8e55eddd039bd5e1978c61b33075",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "99aede75_da6b8214",
+        "filename": "src/co/aospa/settings/deviceinfo/firmwareversion/BasebandVersionPreferenceController.kt",
+        "patchSetId": 2
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1000143
+      },
+      "writtenOn": "2024-10-17T12:46:37Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "cc61752b_31667c31",
       "revId": "9292727da65e8e55eddd039bd5e1978c61b33075",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
