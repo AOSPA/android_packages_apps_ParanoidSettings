@@ -16,6 +16,24 @@
       "message": "internet page does not open",
       "revId": "c2c278e8825d3805fa5f515e233759bfac645d31",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "01f5caa0_05624735",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000143
+      },
+      "writtenOn": "2024-11-28T09:39:58Z",
+      "side": 1,
+      "message": "In fact its https://gerrit.aospa.co/c/AOSPA/android_packages_apps_ParanoidSettings/+/41871/",
+      "parentUuid": "82ab24c2_ff5c2d46",
+      "revId": "c2c278e8825d3805fa5f515e233759bfac645d31",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ],
   "submitRequirementResults": []
