@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: 2016 The Android Open Source Project
+     SPDX-FileCopyrightText: 2024 Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:title="@string/ambient_display_title">
+
+    <com.android.settingslib.widget.IllustrationPreference
+        android:key="gesture_double_tap_video"
+        settings:searchable="false"
+        app:lottie_rawRes="@raw/lottie_tap_to_check_phone"/>
+
+    <com.android.settingslib.widget.MainSwitchPreference
+        android:key="gesture_double_tap_screen"
+        android:title="@string/ambient_display_title"
+        app:keywords="@string/keywords_gesture" />
+
+    <PreferenceCategory
+        android:key="ambient_display_double_tap"
+        android:title="@string/ambient_display_summary" />
+
+</PreferenceScreen>
