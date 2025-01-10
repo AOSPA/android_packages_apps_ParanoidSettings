@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "41c70034_14f8cd4a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000469
+      },
+      "writtenOn": "2025-01-10T19:17:30Z",
+      "side": 1,
+      "message": "\"Status bar icons\" would be the better title imo",
+      "revId": "87395aca0334d2ad7f64051fe59de7b1a2294eac",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
