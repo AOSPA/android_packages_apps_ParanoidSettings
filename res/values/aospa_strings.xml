@@ -14,6 +14,9 @@
     <string name="gesture_wake_ambient">Show Ambient</string>
     <string name="gesture_wake">Fully wake</string>
 
+    <!-- aptX Settings -->
+    <string name="connected_device_codec_preference">Qualcomm® aptX™ Codec preferences</string>
+
     <!-- Charging control -->
     <string name="charging_control_title">Charging control</string>
     <string name="charging_control_summary">Customize charging schedule and limits for battery</string>
