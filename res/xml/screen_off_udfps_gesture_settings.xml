@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: 2019 The Android Open Source Project
+     SPDX-FileCopyrightText: 2025 Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:title="@string/ambient_display_screen_off_udfps_title">
+
+    <com.android.settingslib.widget.IllustrationPreference
+        android:key="gesture_udfps_screen_video"
+        settings:searchable="false"
+        app:lottie_rawRes="@raw/lottie_screen_off_udfps"/>
+
+    <com.android.settingslib.widget.MainSwitchPreference
+        android:key="gesture_udfps"
+        android:title="@string/ambient_display_screen_off_udfps_title"
+        app:keywords="@string/keywords_gesture" />
+
+    <PreferenceCategory
+        android:key="gesture_tap_category"
+        android:title="@string/ambient_display_screen_off_udfps_summary" />
+
+</PreferenceScreen>
