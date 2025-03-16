@@ -68,6 +68,23 @@
                 android:value="co.aospa.settings.gestures.PowerButtonTorchSettings" />
         </activity-alias>
 
+        <activity-alias
+            android:name="AdaptivePlaybackSoundSettings"
+            android:label="@string/adaptive_playback_screen_title"
+            android:exported="true"
+            android:targetActivity="Settings$ParanoidSettingsActivity">
+            <intent-filter android:priority="32">
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.android.settings.SHORTCUT" />
+            </intent-filter>
+            <intent-filter android:priority="1">
+                <action android:name="android.settings.ADAPTIVE_PLAYBACK_SOUND_SETTINGS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="co.aospa.settings.sound.AdaptivePlaybackSoundSettings" />
+        </activity-alias>
+
         <activity
             android:name=".Settings$ParanoidSettingsActivity"
             android:theme="@style/Theme.SubSettingsBase"
