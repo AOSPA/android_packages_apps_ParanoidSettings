@@ -9,10 +9,11 @@
 
     <application>
 
-        <activity
-            android:name="Settings$RefreshRateSettingsActivity"
+        <activity-alias
+            android:name="RefreshRateSettings"
             android:label="@string/refresh_rate_title"
-            android:exported="true">
+            android:exported="true"
+            android:targetActivity="Settings$ParanoidSettingsActivity">
             <intent-filter android:priority="32">
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="com.android.settings.SHORTCUT" />
@@ -27,7 +28,7 @@
                        android:value="@string/menu_key_display"/>
             <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
                 android:value="true" />
-        </activity>
+        </activity-alias>
 
         <activity-alias
             android:name="DcDimmingSettings"
