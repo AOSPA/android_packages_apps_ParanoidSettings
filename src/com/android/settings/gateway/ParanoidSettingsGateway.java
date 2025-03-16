@@ -19,6 +19,7 @@ package com.android.settings.core.gateway;
 import co.aospa.settings.display.DcDimmingSettings;
 import co.aospa.settings.display.RefreshRateSettings;
 import co.aospa.settings.gestures.PowerButtonTorchSettings;
+import co.aospa.settings.sound.AdaptivePlaybackSoundSettings;
 
 public class ParanoidSettingsGateway {
 
@@ -30,5 +31,6 @@ public class ParanoidSettingsGateway {
         DcDimmingSettings.class.getName(),
         RefreshRateSettings.class.getName(),
         PowerButtonTorchSettings.class.getName(),
+        AdaptivePlaybackSoundSettings.class.getName(),
     };
 }
