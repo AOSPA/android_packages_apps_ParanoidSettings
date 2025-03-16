@@ -17,6 +17,7 @@
 package com.android.settings.core.gateway;
 
 import co.aospa.settings.display.DcDimmingSettings;
+import co.aospa.settings.display.RefreshRateSettings;
 
 public class ParanoidSettingsGateway {
 
@@ -25,6 +26,7 @@ public class ParanoidSettingsGateway {
      * security exception if the fragment it needs to display is not in this list.
      */
     public static final String[] ENTRY_FRAGMENTS = {
-        DcDimmingSettings.class.getName()
+        DcDimmingSettings.class.getName(),
+        RefreshRateSettings.class.getName()
     };
 }
