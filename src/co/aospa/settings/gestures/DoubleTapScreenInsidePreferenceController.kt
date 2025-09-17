@@ -31,7 +31,7 @@ class DoubleTapScreenInsidePreferenceController(
     }
 
     override fun updateState(pref: Preference) {
-        preference?.updateStatus(Settings.Secure.getInt(mContext.contentResolver,
+        preference?.setChecked(Settings.Secure.getInt(mContext.contentResolver,
                 DOZE_DOUBLE_TAP_GESTURE, 0) == 1)
     }
 

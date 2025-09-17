@@ -58,7 +58,7 @@ public class DcDimmingSettings extends DashboardFragment
 
         MainSwitchPreference mPreference = findPreference(KEY_MAIN_SWITCH);
         mPreference.addOnSwitchChangeListener(this);
-        mPreference.updateStatus(mDcDimmingManager.isDcDimmingOn());
+        mPreference.setChecked(mDcDimmingManager.isDcDimmingOn());
 
         mAutoPref = findPreference(KEY_AUTO_MODE);
         mAutoPref.setEntries(new CharSequence[]{

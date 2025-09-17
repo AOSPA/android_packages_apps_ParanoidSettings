@@ -38,7 +38,7 @@ class TapScreenGestureInsidePreferenceController(
     override fun updateState(pref: Preference) {
         val enabled = Settings.Secure.getInt(mContext.contentResolver,
                 DOZE_TAP_SCREEN_GESTURE, 1) == 1
-        preference?.updateStatus(enabled)
+        preference?.setChecked(enabled)
         updateAmbientEnablement(enabled)
     }
 

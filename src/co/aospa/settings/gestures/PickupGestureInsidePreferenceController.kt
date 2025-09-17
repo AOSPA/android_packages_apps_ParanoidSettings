@@ -38,7 +38,7 @@ class PickupGestureInsidePreferenceController(
     override fun updateState(pref: Preference) {
         val enabled = Settings.Secure.getInt(mContext.contentResolver,
                 DOZE_PICK_UP_GESTURE, if (default) 1 else 0) == 1
-        preference?.updateStatus(enabled)
+        preference?.setChecked(enabled)
         updateAmbientEnablement(enabled)
     }
 
