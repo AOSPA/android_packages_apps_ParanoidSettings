@@ -22,6 +22,30 @@
       },
       "revId": "fdb9d17c6a905d72273d12d82adae5189fd59aac",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "983381a3_d7a0700f",
+        "filename": "src/co/aospa/settings/sound/AdaptivePlaybackSwitchPreferenceController.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2026-01-20T05:40:59Z",
+      "side": 1,
+      "message": "welp",
+      "parentUuid": "054a305c_ecb9ecb1",
+      "range": {
+        "startLine": 17,
+        "startChar": 0,
+        "endLine": 17,
+        "endChar": 35
+      },
+      "revId": "fdb9d17c6a905d72273d12d82adae5189fd59aac",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ],
   "submitRequirementResults": [
