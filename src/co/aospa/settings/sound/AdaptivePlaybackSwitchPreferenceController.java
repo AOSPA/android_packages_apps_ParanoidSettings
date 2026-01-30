@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.sound;
+package co.aospa.settings.sound;
 
 import android.content.Context;
 import android.database.ContentObserver;
