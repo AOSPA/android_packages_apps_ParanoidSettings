@@ -8,7 +8,7 @@ package co.aospa.settings.display;
 import android.content.Context;
 import android.content.Intent;
 import android.provider.Settings;
-import androidx.preference.SwitchPreference;
+import androidx.preference.SwitchPreferenceCompat;
 import androidx.preference.Preference;
 
 import com.android.settings.DisplaySettings;
@@ -36,7 +36,7 @@ public class PocketJudgePreferenceController extends AbstractPreferenceControlle
     public void updateState(Preference preference) {
         int pocketJudgeValue = Settings.System.getInt(mContext.getContentResolver(),
                 POCKET_JUDGE, 0);
-        ((SwitchPreference) preference).setChecked(pocketJudgeValue != 0);
+        ((SwitchPreferenceCompat) preference).setChecked(pocketJudgeValue != 0);
     }
 
     @Override
